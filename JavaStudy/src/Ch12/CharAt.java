@@ -15,7 +15,6 @@ public class CharAt {
 			}else if (ch >= 48 && ch <= 57 ) {// 숫자
 				num = true;
 			}
-			
 		}
 		if (upper && lower && num ) {
 			System.out.println("회원가입");
@@ -23,5 +22,4 @@ public class CharAt {
 			System.out.println("다시 입력해주세요");
 		}
 	}
-
 }

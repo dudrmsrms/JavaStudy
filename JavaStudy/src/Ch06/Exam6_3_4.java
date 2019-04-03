@@ -1,6 +1,6 @@
 package Ch06;
 public class Exam6_3_4 {
-	public static String dillemma(boolean a, boolean b) {
+	public String dillemma(boolean a, boolean b) {
 		String result = "";
 		//A 자백, B자백 안함
 		if (a == true && b == false ) {
@@ -17,7 +17,10 @@ public class Exam6_3_4 {
 		return result;
 	}
 	public static void main(String[] args) {
-		System.out.println(dillemma(false,true));
+//		System.out.println(dillemma(false,true));
+		Exam6_3_4 de = new Exam6_3_4();
+		System.out.println(de.dillemma(false, true));
+		
 	}
 
 }
