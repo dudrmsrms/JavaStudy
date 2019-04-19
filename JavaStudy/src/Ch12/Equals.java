@@ -10,7 +10,7 @@ public class Equals {
 		String s3 = new String("hi");
 		System.out.println(s1 == s3);
 		
-		System.out.println(s1.equals(s2));
+		System.out.println(s1.equals(s3));
 		//문자열과 문자열 비교는 equals 로 비교한다 .
 		
 		System.out.println("문자를 입력하시오");
